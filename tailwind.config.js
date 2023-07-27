@@ -5,5 +5,6 @@ export default {
   theme: {
     extend: {},
   },
-  plugins: [],
+  // eslint-disable-next-line no-undef
+  plugins: [require("tailwind-scrollbar-hide")],
 };
